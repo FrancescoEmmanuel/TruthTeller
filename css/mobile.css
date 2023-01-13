@@ -1,0 +1,44 @@
+@media screen and (min-width: 992px) {
+    .mobile {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .dekstop {
+        display: none;
+
+    }
+    body{
+        height:100%;
+        background-color: rgba(134, 214, 134, 0.466);
+    }    
+
+}
+
+
+   
+.mobile-image img{
+    margin:100px auto 40px auto;
+    display:block;
+}
+    
+
+.mobile-content-text h1{
+    font-size:25px;
+
+
+}
+.mobile-content-text h2{
+    margin-top:10px;
+    font-size:20px;
+}
+
+
+.mobile-content-text h1,h2{
+    text-align:left;
+    color:#f1f1f1;
+    text-align:center
+    
+}

@@ -1,0 +1,154 @@
+
+
+
+#label-chat {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+.container-chat{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.nav-chat{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+.contact-list {
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: scroll;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.contact {
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+    align-items: center;
+}
+.new-chat {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    color: rgb(83, 226, 83);
+    padding: 10px;
+}
+
+
+.detail-chat {
+   min-height: 400px;
+   max-height: 400px;
+   background-color: white;
+   border-radius: 10px;
+   overflow-y: scroll;
+}
+
+.form-chat{
+    width: 100%;
+   
+}
+
+.display-chat{
+   height: 320px;
+   padding-left: 2rem;
+   padding-right: 5rem;
+   padding-top: 2rem;
+   
+}
+
+.profile-chat{
+    display: flex; 
+    gap: 10px; 
+    justify-items: center; 
+    align-items: center;
+
+}
+
+
+/* new */
+
+.container-profesional{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    
+}
+.profile-container{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.chat-profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-view{
+    margin-top: 2rem;
+    
+}
+
+.ml-12 {
+    margin-left: 32px !important;
+}
+
+.card-profile {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 170px;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+#profile-label {
+    display: flex;
+}
+
+.input-group{
+    width:920px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container-chat{
+        grid-template-columns: 100%;
+    }
+    .display-chat{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+    #profile-label {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+

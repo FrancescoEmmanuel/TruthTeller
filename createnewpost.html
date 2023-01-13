@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Truth Teller</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" type="image/x-icon" href="foto/truthlogo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topnavbar" id="mytopnavbar">
+        <a href="#"><b>Truth Teller</b></a>
+        <div class="search-container" style="padding-left: 15px;">
+            <input type="text" placeholder="Search for topics" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="menurightposition">
+            <a>&nbsp;</a>
+            <a href="index.html">Home</a>
+            <a href="findcounselling.html">Find counselling</a>
+            <a href="#">News</a>
+            <a href="#">About Us</a>
+            <a href="chat.html"><i class="fa fa-envelope"></i> </a>
+            <div class="topnavdropdown">
+                <button class="dropdownbutton" style="padding-top: 22px;"><i class="fa fa-user"></i>
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="topnavdropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Log out</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container mt-5">
+        <div class="row pb-3">
+            <div class="column-md-12">
+                <a href="index.html">
+                    <h3 class="text-purple"><i class="fa fa-arrow-left"></i> Tell me a story...</h3>
+                </a>
+            </div>
+        </div>
+        <div class="row mb-3 pb-3">
+            <div class="column-md-12">
+                <div class="row mb-3 pb-3">
+                    <div class="column-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <form>
+                                    <div style="padding-bottom:15px " class="field">
+                                        <label class="text-dark"><b>Title</b></label>
+                                        <input type="text " placeholder="Type here... " class="formstyle">
+                                    </div>
+                                    <div style="padding-bottom:15px">
+                                        <label class="text-dark"><b>Category</b></label>
+                                        <select class="formstyle">
+                                            <option value="">Select a category...</option>
+                                            <option value="All">All</option>
+                                            <option value="Work">Work</option>
+                                            <option value="School">School</option>
+                                            <option value="Family">Family</option>
+                                            <option value="Romantic relationships">Romantic relationships</option>
+                                            <option value="Friends">Friends</option>
+                                            <option value="Mental health">Mental health</option>
+                                            <option value="Trauma">Trauma</option>
+                                     </select>
+                                    </div>
+                                    <div style="padding-bottom:15px">
+                                        <label class="text-dark"><b>Body</b></label>
+                                        <textarea rows="3 " class="formstyle " placeholder="Type here..."></textarea>
+                                    </div>
+                                    <div class="floatright">
+                                        <a class="btn btn-purple roundbutton m-1 " href="#">Post</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="column-md-12">
+                        <h2 class="text-purple">Your previous post </h2>
+                    </div>
+                </div>
+                <div class="row mb-3 pb-3">
+                    <div class="column-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row middle-row-content">
+                                    <div class="column-md-1 ">
+                                        <img src="foto/user.png " width="100% " class="imageround">
+                                    </div>
+                                    <div class="column-md-8 ">
+                                        <h5><b>I can’t keep friends </b></h5>
+                                        <ul class="labelbuttongrey">
+                                            <li>Author : <span class="text-green">The Santos</span>
+                                            </li>
+                                            <li><i class="fa fa-calendar text-green"></i> 1 January 2022
+                                            </li>
+                                            <li><span class="text-green"> Latest reply</span>a few hours ago
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-md-3 ">
+                                        <div class="floatright">
+                                            <div class="btn btn-grey btn-sm"><i class="fa fa-comment text-green"></i> 30 </div>
+                                            <div class="btn btn-grey btn-sm"><i class="fa fa-star text-green"></i> 51</div>
+                                            <div class="btn btn-grey btn-sm"><i class="fa fa-share text-green"></i> 13</div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="column-md-12 mb-3 autovertical">
+                                        <p class="text-justify mt-3">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                            survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        </p>
+                                        <hr>
+                                        <div class="floatright">
+                                            <p style="display: none;" id="p5">https://francescoemmanuel.github.io/TruthTeller/post5.html</p>
+                                            <a class="btn btn-green m-1" href="#" onclick="copyToClipboard('#p5')">Share</a>
+                                            <a class="btn btn-purple m-1" href="post5.html">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+    function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+        alert('Link to this post has beeb copied to clipboard!');
+    }
+</script>
