@@ -24,5 +24,22 @@ A website for everything related to mental health, where users can talk about th
 - View other posts/threads on other user's problems based on a topic of your choice, as well as sharing a post
 - Chat with professional psychiatrists based on the problems that you are having
 
+## Contents
+### HTML files
+- index.html - forum page
+- creatnewpost.html - page where users can create a new post
+- post1.html - a discussion thread (another user's post)
+- post2.html - a discussion thread (another user's post)
+- post3.html - a discussion thread (another user's post)
+- post4.html - a discussion thread (another user's post)
+- post5.html - a discussion thread (the user's previous post)
+- findcounselling.html - page where users can see recommended psychiatrists and choose a category to look for a psychiatrist according to your problem
+- work.html - page where users can see all psychiatrists who specializes in solving work problems
+- doctorprofile.html - page where users can see Dr.John Doe's profile
+- chat.html - page where users can chat with Dr.John Doe
+
+### CSS files
+- 
+
 
 
