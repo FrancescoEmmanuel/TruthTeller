@@ -1,4 +1,4 @@
-# TruthTeller
+# TruthTeller :deaf_man:
 
 A repository for the Truth Teller website that was done for the Human Computer Interaction course final project.
 <br><br>
