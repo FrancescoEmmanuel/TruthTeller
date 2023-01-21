@@ -40,8 +40,11 @@ A website for everything related to mental health, where users can talk about th
 
 ### CSS files
 - style1.css and style2.css - stylesheet for all the pages' navigation bar and the index.html, createnewpost.html, all the post pages HTML, findcounselling.html, work.html, chat.html, and doctorprofile.html
-- style2.css - stylesheet for chat.html and doctorprofile.html
-- style3.css - stylesheet for the mobile version of the website
+- style3.css - stylesheet for chat.html and doctorprofile.html
+- mobile.css - stylesheet for the mobile version of the website
+
+### Others
+- foto - folder for all the images used in the website
 
 
 
